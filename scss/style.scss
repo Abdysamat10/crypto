@@ -109,9 +109,10 @@ body {
             height: 130px;
             transition: 0.5s;
             .header__logo {
-                letter-spacing: 5px;
-                @include adaptiv-font(42, 24);
-                color: #10e44c;
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
             }
             .header__burger {
                 display: none;
@@ -775,10 +776,13 @@ body {
     .contact {
         padding: 80px 0 80px;
         background-color: #161635;
-        .contact__title {
-            @include adaptiv-font(42, 13);
-            text-align: center;
-            color: #10e44b;
+        .header__logo_2 {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 160px;
+                height: 160px;
+            }
         }
         .contact__body {
             padding-top: 50px;

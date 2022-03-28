@@ -200,10 +200,9 @@ body {
   transition: 0.5s;
 }
 
-.wrapper .header .header__body .header__logo {
-  letter-spacing: 5px;
-  font-size: calc(24px + 18 * ((100vw - 320px) / 1920));
-  color: #10e44c;
+.wrapper .header .header__body .header__logo img {
+  width: 150px;
+  height: 150px;
 }
 
 .wrapper .header .header__body .header__burger {
@@ -953,10 +952,18 @@ body {
   background-color: #161635;
 }
 
-.wrapper .contact .contact__title {
-  font-size: calc(13px + 29 * ((100vw - 320px) / 1920));
-  text-align: center;
-  color: #10e44b;
+.wrapper .contact .header__logo_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .contact .header__logo_2 img {
+  width: 160px;
+  height: 160px;
 }
 
 .wrapper .contact .contact__body {
