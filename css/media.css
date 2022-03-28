@@ -1,0 +1,29 @@
+@media (max-width: 1199px) {
+  body {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 575px) {
+  body {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    font-size: 5px;
+  }
+}
